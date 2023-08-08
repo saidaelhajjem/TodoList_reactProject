@@ -1,14 +1,19 @@
 .todos_single{
     display: flex;
-    width: 29.5%;
+   /*  width: 29.5%; */
     border-radius: 5px;
     padding: 20px;
     margin-top: 15px;
     background-color: yellow;
+    transition: 0.2s;
     .todos_single--text{
         flex: 1;
         padding: 5xp;
         border: none;
         font-size: 20px;
     }
+}
+.todos_single:hover{
+    box-shadow: 0 0 5px #000;
+    transform: scale(1.03);
 }
